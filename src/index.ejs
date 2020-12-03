@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>BZList Changelog</title>
+  <style><%- css.style -%></style>
+</head>
+<body>
+  <main>
+    <h1>BZList Changelog</h1>
+    <p>This is an outline and does not contain every change. Check the <a href="https://github.com/bzlist/bzlist.net/commits/master" target="_blank" rel="noopener noreferrer">commits</a> for a full list of changes.</p>
+    <% changelog.forEach((changes) => { %>
+      <h2>
+        <a href="#v<%= changes.version %>">🔗</a>
+        v<%= changes.version %><%= changes.title ? ` - ${changes.title}` : "" %> (<%= changes.releaseDate %>)
+      </h2>
+      <div id="v<%= changes.version %>">
+        <% if(changes.note){ %>
+          <div class="note"><b>Note</b>: <%= changes.note %>.</div>
+        <% } %>
+
+        <% if(changes.added){ %>
+          <h3>Added</h3>
+          <ul>
+            <% changes.added.forEach((item) => { %>
+              <li><%= item %>.</li>
+            <% }); %>
+          </ul>
+        <% } %>
+
+        <% if(changes.changed){ %>
+          <h3>Changed</h3>
+          <ul>
+            <% changes.changed.forEach((item) => { %>
+              <li><%= item %>.</li>
+            <% }); %>
+          </ul>
+        <% } %>
+
+        <% if(changes.fixed){ %>
+          <h3>Fixed</h3>
+          <ul>
+            <% changes.fixed.forEach((item) => { %>
+              <li><%= item %>.</li>
+            <% }); %>
+          </ul>
+        <% } %>
+
+        <% if(changes.removed){ %>
+          <h3>Removed</h3>
+          <ul>
+            <% changes.removed.forEach((item) => { %>
+              <li><%= item %>.</li>
+            <% }); %>
+          </ul>
+        <% } %>
+      </div>
+    <% }); %>
+  </main>
+  <footer>Copyright &copy; 2020 The Noah</footer>
+  <script><%- js.app -%></script>
+</body>
+</html>

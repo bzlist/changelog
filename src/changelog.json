@@ -1,0 +1,213 @@
+[
+  {
+    "version": "0.10.7",
+    "releaseDate": "2020-4-26",
+    "title": "More Improvements",
+    "added": [
+      "Update button (instead of automatic updates)",
+      "WebP for server banner images (if supported)",
+      "Data saver setting",
+      "Icon click animation",
+      "Automatically update scrollbar style without refreshing",
+      "Support for more avatar formats",
+      "Splash screen color matches theme",
+      "Splash screen stuck message",
+      "Rounded corners to table rows",
+      "Custom tooltips",
+      "Basic client-side analytics",
+      "Greatly improved list rendering performance"
+    ],
+    "changed": [
+      "Updated to new logo on maintenence page",
+      "Improved navigation menu",
+      "Improved play button",
+      "Updated dependencies",
+      "Tweaked server details page",
+      "Improved cards",
+      "Increased midnight theme contrast",
+      "Tweaked appearence",
+      "Slightly rounder corners",
+      "Dropdown appearence",
+      "Button appearence"
+    ],
+    "fixed": [
+      "Indication arrow when sorting by game style",
+      "Player motto overflowing",
+      "Some table rows overflowing",
+      "Server page cards expanding",
+      "Offline bar overlapping text",
+      "Invalid token message when not signed in",
+      "Some buttons being too short",
+      "Links getting background on Firefox",
+      "Primary button text hover color"
+    ]
+  },
+  {
+    "version": "0.10.6",
+    "releaseDate": "2020-3-10",
+    "title": "General Improvements 🎈",
+    "added": [
+      "Favorite button to serverr list",
+      "More server screenshots",
+      "Play button in server list",
+      "Survey button",
+      "Settings sync status",
+      "Server and player search",
+      "Auto fetch settings when signing in",
+      "Favorite server button on mobile",
+      "Friend button on mobile",
+      "Animations",
+      "Setting to disable animations",
+      "Manually editing favorite servers and friends",
+      "Different settings tabs have unique urls",
+      "Experimental hover info card on servers",
+      "Devtools warning",
+      "Native share button",
+      "Preload active server images",
+      "Setting to disable real-time data",
+      "Dynamic page title",
+      "Arrow indicating how tables are sorted",
+      "More info to help page",
+      "Fully handle resizing to/from mobile size",
+      "Netlify status to README"
+    ],
+    "changed": [
+      "General performance improvments",
+      "Tweaked navbar",
+      "Improved select team dialog",
+      "More rounded corners on some items",
+      "Redesigned settings page",
+      "Shadows are more contrasting",
+      "New logo",
+      "Tweaked mobile look",
+      "Toggle and card backgrounds are now a gradient",
+      "Default server sorting",
+      "Token (authentication) system",
+      "Make buttons and last item in table go to end"
+    ],
+    "fixed": [
+      "Wrong number of table headers",
+      "Server details cards being messed up",
+      "Server page icon button alignment",
+      "Incorrect favorite and friend status"
+    ]
+  },
+  {
+    "version": "0.10.5",
+    "releaseDate": "2020-1-18",
+    "added": [
+      "Hover text to add friend button"
+    ],
+    "changed": [
+      "Improved cards (CSS grid)",
+      "Minor tweaks",
+      "Slight speed boost",
+      "Updated splash screen author logo",
+      "Updated copyright",
+      "Shadows",
+      "Background adn navbar are now gradients"
+    ],
+    "removed": [
+      "Fireworks effect"
+    ]
+  },
+  {
+    "version": "0.10.4",
+    "releaseDate": "2020-1-2",
+    "title": "Happy New Year! 🎆",
+    "added": [
+      "Option to favorite servers",
+      "Sign in link on feedback page if not signed in",
+      "Option to friend players",
+      "Notifications if favorite server or friend is online",
+      "\"Paradise Vally\" server screenshot"
+    ],
+    "changed": [
+      "Special effect from snow to fireworks"
+    ]
+  },
+  {
+    "version": "0.10.3",
+    "releaseDate": "2019-12-15",
+    "title": "Snow! ❄",
+    "note": "During the development of this version some unused data was removed from the API which required slight tweaks",
+    "added": [
+      "Max team size to server details",
+      "Snow effect"
+    ],
+    "changed": [
+      "Updated dependencies"
+    ],
+    "fixed": [
+      "Typos in CHANGELOG",
+      "Wrong license in package.json",
+      "ServerDetailsPage always needing",
+      "Textarea not having border on focues",
+      "Heading space on Terms of Service page",
+      "Button list spacing"
+    ]
+  },
+  {
+    "version": "0.10.2",
+    "releaseDate": "2020-12-13",
+    "note": "During the development of this version a lot of work went into backend performance which helps with frontend performance",
+    "added": [
+      "Account icon when signed in",
+      "Time until auto logout",
+      "Scroll to top when switching pages",
+      "Auto renew token",
+      "Social media card support (Open Graph protocol)"
+    ],
+    "changed": [
+      "Removed gradient from navbar",
+      "Made table hover a gradient",
+      "Get server status even if syncing settings"
+    ],
+    "fixed": [
+      "Player count going down when ignore observers is on"
+    ]
+  },
+  {
+    "version": "0.10.1",
+    "releaseDate": "2020-12-6",
+    "title": "Fixes 🛠",
+    "added": [
+      "\"what's new\" link to help page"
+    ],
+    "changed": [
+      "Improved handling of boolean settings"
+    ],
+    "fixed": [
+      "Icons rendering above mobile nav menu",
+      "List buttons spacing",
+      "Server titles from overflowing",
+      "Settings page errors and warnings",
+      "Warning in Dropdown and Switch components",
+      "Account page token parsing",
+      "Old urls in package.json",
+      "package.json name field",
+      "Settings not syncing properly",
+      "Servers with hidden observers being on top"
+    ]
+  },
+  {
+    "version": "0.10.0",
+    "releaseDate": "2020-12-5",
+    "title": "New Authentication",
+    "added": [
+      "Fade in animation to play dialog",
+      "Link to version release on GitHub",
+      "\"this minute\" to time ago",
+      "Custom scrollbars",
+      "Detect if API is offline",
+      "Custom icons"
+    ],
+    "changed": [
+      "Primary button shadow is now colored",
+      "Navbar is now a gradient",
+      "Improved hamburger (mobile) menu",
+      "Improved table rendering performance",
+      "Using new authentication system"
+    ]
+  }
+]
