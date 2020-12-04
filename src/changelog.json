@@ -149,7 +149,7 @@
   },
   {
     "version": "0.10.2",
-    "releaseDate": "2020-12-13",
+    "releaseDate": "2019-12-13",
     "note": "During the development of this version a lot of work went into backend performance which helps with frontend performance",
     "added": [
       "Account icon when signed in",
@@ -169,7 +169,7 @@
   },
   {
     "version": "0.10.1",
-    "releaseDate": "2020-12-6",
+    "releaseDate": "2019-12-6",
     "title": "Fixes 🛠",
     "added": [
       "\"what's new\" link to help page"
@@ -192,7 +192,7 @@
   },
   {
     "version": "0.10.0",
-    "releaseDate": "2020-12-5",
+    "releaseDate": "2019-12-5",
     "title": "New Authentication",
     "added": [
       "Fade in animation to play dialog",
